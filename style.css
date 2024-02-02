@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(209, 212, 215);
+  font-family: Helvetica, sans-serif;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  background-color: #fff;
+}
+.container .header {
+  width: 100%;
+  height: 88px;
+  background-color: #fffc00;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 10px;
+}
+.container .main {
+  width: 100%;
+}
+
+.container .main .welcome {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 40px;
+  text-align: center;
+}
+.container .main .google {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .main .google button {
+  width: 228px;
+  height: 100%;
+  border-radius: 24px;
+  border: none;
+  background-color: #000000;
+  color: #fffc00;
+}
+.container .main .trouble {
+  padding: 25px;
+  font-size: 10px;
+  text-align: center;
+}
+.container .main .or {
+  color: #bbbbbb;
+  text-align: center;
+  font-size: 18px;
+}
+.container .main .input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+.container .main .input .inputbox {
+  display: flex;
+  align-items: center;
+}
+.container .main .input .inputbox label {
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 12px;
+  color: #bbbbbb;
+}
+.container .main .input .inputbox input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  width: 263px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container .main .input .forget {
+  width: 263px;
+  color: #0d46d9;
+  font-size: 10px;
+}
+.container .main .input .forget p {
+  text-align: end;
+}
+.container .login {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .login button {
+  background: #bbbbbb;
+  width: 228px;
+  height: 100%;
+  border-radius: 24px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .signup {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+.container .signup span {
+  font-weight: 800;
+}
